@@ -1,0 +1,175 @@
+
+body{
+	background-color: hsl(218, 23%, 16%);
+}
+
+
+.advice-card{
+	border: 5px solid;
+	border-radius: 15px;
+	border-color: hsl(217, 19%, 24%);
+	background-color: hsl(217, 19%, 24%);
+	text-align: center;
+	margin:auto;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width: 500px;
+	height: 300px;
+	
+}
+
+.advice-id{
+	padding-top: 30px;
+	font-family: 'Manrope', sans-serif;
+	color: hsl(150, 100%, 66%);
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 5px;
+	
+}
+
+.advice-quote{
+	color: hsl(193, 38%, 86%);
+	font-family: 'Manrope', sans-serif;
+	font-size: 1.625rem;
+	font-weight: 800;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+.advice-card-bottom{
+
+	text-align: center;
+	margin:auto;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width: 500px;
+	height: 300px;
+	
+}
+
+
+.advice-btn{
+  
+  background-color: hsl(150, 100%, 66%);
+  margin: auto;
+  position: absolute;
+  top: 92%;
+  left: 45%;
+  
+  
+  border: none;
+  border-radius: 50%;
+
+  display: block;
+
+  width: 50px;
+  height: 50px;
+}
+.advice-btn:hover{
+	
+  --box-shadow-color: hsl(150, 100%, 66%);
+  box-shadow: 1px 1px 25px var(--box-shadow-color);
+  cursor: pointer;
+}
+
+.mobile-divider{display: none;}
+.desktop-divider{
+  margin: 0;
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  }
+
+
+.btn-image{
+position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	color: hsl(193, 38%, 86%); 
+}
+.attribution a { color: hsl(150, 100%, 66%); }
+
+
+
+@media (max-width: 480px){
+	
+	.advice-card{
+	border: 5px solid;
+	border-radius: 15px;
+	border-color: hsl(217, 19%, 24%);
+	background-color: hsl(217, 19%, 24%);
+	text-align: center;
+	margin: auto;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width: 350px;
+	height: 350px;
+	}
+	.advice-card-bottom{
+	text-align: center;
+	margin: auto;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width: 350px;
+	height: 300px;
+	}
+	.desktop-divider{
+		display: none;
+	}
+	.mobile-divider{
+		display: block;
+		margin: auto;
+		margin-top: 270px;
+	}
+	.advice-btn{
+		background-color: hsl(150, 100%, 66%);
+		margin: auto;
+		margin-top: 30px;
+		
+		border: none;
+		border-radius: 50%;
+	
+		left: 150px;
+		display: block;
+		width: 50px;
+		height: 50px;
+	}
+	
+}
